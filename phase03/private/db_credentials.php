@@ -2,8 +2,8 @@
  
  define("DB_SERVER", "localhost");
  define("DB_USER", "sally");
- define("DB_PASS", "somepa55word");
- define("DB_NAME", "salamanders");
+ define("DB_PASS", "");
+ define("DB_NAME", "");
 
 // SiteGround
 //define("DB_SERVER", "localhost");
