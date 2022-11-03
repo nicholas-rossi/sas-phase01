@@ -1,5 +1,6 @@
 <?php
 
+redirect_to(url_for('salamanders/index.php'));
 function url_for($script_path) {
   // add the leading '/' if not present
   if($script_path[0] != '/') {
@@ -42,5 +43,4 @@ function is_post_request() {
 function is_get_request() {
     return $_SERVER['REQUEST_METHOD'] === 'GET';
 }
-
 ?>
