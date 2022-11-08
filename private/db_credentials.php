@@ -1,13 +1,13 @@
 <?php
 // local
-define("DB_SERVER", "localhost");
-define("DB_USER", "sally");
-define("DB_PASS", "somepa55word");
-define("DB_NAME", "salamanders");
+define("DB_SERVER", "");
+define("DB_USER", "");
+define("DB_PASS", "");
+define("DB_NAME", "");
 
 //a2
-//define("DB_SERVER", "localhost");
-//define("DB_USER", "sally");
-//define("DB_PASS", "Desert2Devil$");
-//define("DB_NAME", "salamanders");
+//define("DB_SERVER", "");
+//define("DB_USER", "");
+//define("DB_PASS", "");
+//define("DB_NAME", "");
 ?>
