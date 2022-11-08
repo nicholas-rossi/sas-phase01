@@ -45,4 +45,5 @@ if(is_post_request()) {
  </label>
 </form>
 
-include(SHARED_PATH . '/salamander-footer.php'); ?>
+
+<?php include(SHARED_PATH . '/salamander-footer.php'); ?>

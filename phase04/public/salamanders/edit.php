@@ -19,6 +19,7 @@ if(is_post_request()) {
    else {
     $salamander = find_salamander_by_id($id);
    }
+   
 ?>
 
 <form action="<?= url_for('salamanders/edit.php?id=' . h(u($id))); ?>" method="post">
