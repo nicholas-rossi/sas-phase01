@@ -7,6 +7,7 @@ include(SHARED_PATH . '/salamander-header.php');
 
 ?>
     <h1>Salamanders</h1>
+    <link href="../../web182/css/style.css" rel="stylesheet" type="text/css">
 
       <a href="<?= url_for('salamanders/create.php'); ?>">Create Salamander</a>
 
