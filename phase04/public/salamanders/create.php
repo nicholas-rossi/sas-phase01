@@ -13,5 +13,6 @@ if(is_post_request()) {
     $newID = mysqli_insert_id($db);
     redirect_to(url_for('salamanders/show.php?id=' . $newID  ));
 }
+
 include(SHARED_PATH . '/salamander-footer.php'); 
 ?>
