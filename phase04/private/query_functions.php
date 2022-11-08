@@ -75,4 +75,3 @@ function delete_salamander($id) {
         exit();
     }
 }
-

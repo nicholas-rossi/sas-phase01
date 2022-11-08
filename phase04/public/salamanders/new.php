@@ -28,3 +28,4 @@ $pageTitle = 'Create Salamander'; ?>
 </form>
 
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>
+

@@ -13,22 +13,6 @@ $salamander = find_salamander_by_id($id);
 <p><strong>Description:</strong><br> <?= h($salamander['description']); ?></p>
 
 <p><a href="<?= url_for('/salamanders/index.php'); ?>">&laquo; Back to List</a></p>
-  <!--
-   <p> Page ID: <?= //echo h($salamander['menu_name']); ?> </p>
 
-   <div class="attributes">
-     <dl>
-       <dt>Menu Name</dt>
-       <dd><?php //echo h($salamander['menu_name']); ?></dd>
-     </dl>
-     <dl>
-       <dt>Position</dt>
-       <dd><?php //echo h($salamander['position']); ?></dd>
-     </dl>
-     <dl>
-       <dt>Visible</dt>
-       <dd><?php //echo $salamander['visible'] == '1' ? 'true' : 'false'; ?></dd>
-     </dl>
-   </div>
--->
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>
+

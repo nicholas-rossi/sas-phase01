@@ -38,3 +38,4 @@ include(SHARED_PATH . '/salamander-header.php');
   Thanks to <a href="https://herpsofnc.org">Ampibians and Reptiles of North Carolina</a>
 
 <?php include(SHARED_PATH . '/salamander-footer.php'); ?>
+
